@@ -8,8 +8,9 @@ $rresponse = [
     'student' => 'John clark M. joven',
     'course' => 'IPT 2',
     'time' => date('Y-m-d H:i:s')
+];
 
 
     // Return the response as JSON
-    echo json_encode($rresponse, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
-]
+    echo json_encode($rresponse, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    ?>
